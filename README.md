@@ -2,6 +2,11 @@
 
 ## A Corpus-Based and Computational Approach to French–Chinese Phraseological Neologisms (2015–2025)
 
+This project is funded by ENEOLI – European Network on Lexical Innovation  (Cost Action  CA22126) 
+
+carried out in the  Computational Corpus Linguistics (Prof. Stephanie Evert) , Centre for Research on Lexicography, Valency and Collocation (CoCoLex), (Drirctor Prof. Stephanie Evert) , Friedrich-Alexander University of Erlangen–Nuremberg (FAU), Germany.
+[Invited by Dr.-Ing. Besim Kabashi] 
+
 ---
 
 ## Project Overview
@@ -172,7 +177,7 @@ Phraseological units are treated as:
 The project is aligned with:
 
 - IZ CoCoLex – FAU Erlangen–Nürnberg  
-- ENEOLI – European Network on Lexical Innovation  
+- ENEOLI – European Network on Lexical Innovation  (Cost Action  CA22126) 
 - Multilingual lexicography research initiatives  
 
 ---
@@ -200,10 +205,9 @@ The project is aligned with:
 
 ## Author
 
-**Dr. [Your Name]**  
-PhD in Linguistics (2021)  
-Computational Lexicography & Phraseology  
-Master 2 pluriTAL – INALCO  
+**Dr.CHEN Lian**  
+(LLL, University of Orléans & CRLAO-CNRS-EHESS-INALCO)
+
 
 **Research interests:**
 
