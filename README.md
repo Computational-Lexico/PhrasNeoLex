@@ -1,64 +1,58 @@
-# PhrasNeoLex
+# PhrasNeoLex  
 
-PhrasNeoLex
+## A Corpus-Based and Computational Approach to French–Chinese Phraseological Neologisms (2015–2025)
 
-A Corpus-Based and Computational Approach to French–Chinese Phraseological Neologisms (2015–2025)
+---
 
-Project Overview
+## Project Overview
 
-PhrasNeoLex is a research project dedicated to the identification, description, and modeling of phraseological neologisms in French and Chinese over the period 2015–2025.
+**PhrasNeoLex** is a research project dedicated to the identification, description, and modeling of phraseological neologisms in French and Chinese over the period **2015–2025**.
 
 The project combines:
 
-Phraseology
-
-Lexicography
-
-Corpus linguistics
-
-Computational methods (NLP)
+- Phraseology  
+- Lexicography  
+- Corpus linguistics  
+- Computational methods (NLP)  
 
 Its objective is to detect and structure multi-word units (MWUs) that have:
 
-Recently emerged
-
-Undergone semantic shift
-
-Experienced pragmatic evolution
+- Recently emerged  
+- Undergone semantic shift  
+- Experienced pragmatic evolution  
 
 The project contributes to:
 
-Multilingual lexical innovation studies
+- Multilingual lexical innovation studies  
+- Contrastive lexicography (FR–ZH)  
+- The ENEOLI network  
+- NLP approaches to neology  
 
-Contrastive lexicography (FR–ZH)
+---
 
-The ENEOLI network
+## Main Objectives
 
-NLP approaches to neology
+- Identify new or evolving phraseological units (PUs)  
+- Compare corpus data with reference dictionaries  
+- Detect neological variants and semantic shifts  
+- Model data in structured formats (JSON / JSON-LD)  
+- Produce a pilot bilingual mini-lexicon (FR–ZH)  
+- Develop a reproducible extraction methodology  
 
-Main Objectives
+---
 
-Identify new or evolving phraseological units (PUs)
+## Repository Structure
 
-Compare corpus data with reference dictionaries
 
-Detect neological variants and semantic shifts
 
-Model data in structured formats (JSON / JSON-LD)
-
-Produce a pilot bilingual mini-lexicon (FR–ZH)
-
-Develop a reproducible extraction methodology
-
-Repository Structure
 PhrasNeoLex/
 │
 ├── Data/
-│   ├── raw_corpus/
-│   ├── cleaned_corpus/
-│   └── reference_dictionaries/
+│ ├── raw_corpus/
+│ ├── cleaned_corpus/
+│ └── reference_dictionaries/
 │
-├── Step 1_scrapping corpus.ipynb
+├── Step1_scrapping_corpus.ipynb
 ├── Step1_corpus_PUs.ipynb
 ├── Step2_fusion_tokenisation.ipynb
 ├── Step3_identification_fr.ipynb
@@ -67,156 +61,160 @@ PhrasNeoLex/
 ├── phrasemes_FR-ZH.json (pilot dataset – forthcoming)
 │
 └── README.md
-Methodological Pipeline
-1️Corpus Construction
 
-Scraping French and Chinese media (2015–2025)
 
-Metadata collection (date, genre, source)
 
-Cleaning and normalization
 
-2️Pre-Neological Reference Lists
+
+---
+
+## Methodological Pipeline
+
+### 1️ Corpus Construction
+
+- Scraping French and Chinese media (2015–2025)  
+- Metadata collection (date, genre, source)  
+- Cleaning and normalization  
+
+---
+
+### 2️ Pre-Neological Reference Lists
 
 Extraction of phraseological units from:
 
-French idiomatic dictionaries
+- French idiomatic dictionaries  
+- Chinese chéngyǔ lexicons  
 
-Chinese chéngyǔ lexicons
+Establishing exclusion criteria (pre-2015 attested units).
 
-Establishing exclusion criteria (pre-2015 attested units)
+---
 
-3️Candidate Extraction
+### 3️ Candidate Extraction
 
-N-gram extraction
+- N-gram extraction  
+- Collocation detection (PMI, t-score)  
+- Morphosyntactic pattern extraction  
+- Dictionary comparison  
 
-Collocation detection (PMI, t-score)
+---
 
-Morphosyntactic pattern extraction
+### 4️ Neologism Detection
 
-Dictionary comparison
+- Frequency diachronic comparison  
+- Distributional semantic analysis (BERT embeddings)  
+- Manual validation  
 
-4️Neologism Detection
+---
 
-Frequency diachronic comparison
-
-Distributional semantic analysis (BERT embeddings)
-
-Manual validation
-
-5️Data Modeling
+### 5️ Data Modeling
 
 Annotation of:
 
-Morphosyntactic structure
+- Morphosyntactic structure  
+- Formal variation  
+- Degree of fixedness  
+- Semantic evolution  
 
-Formal variation
+Export to:
 
-Degree of fixedness
+- JSON  
+- JSON-LD  
 
-Semantic evolution
+---
 
-Export to JSON / JSON-LD
+## NLP Tools Used
 
-NLP Tools Used
+- Python  
+- Regex-based extraction  
+- N-gram statistics  
+- PMI / t-score  
+- BERT (CamemBERT / Chinese BERT)  
+- Contextual embedding clustering  
+- *(Future)* Streamlit visualization interface  
 
-Python
+---
 
-Regex-based extraction
-
-N-gram statistics
-
-PMI / t-score
-
-BERT (CamemBERT / Chinese BERT)
-
-Contextual embedding clustering
-
-(Future) Streamlit visualization interface
-
-Deliverable (Pilot Phase)
+## Deliverable (Pilot Phase)
 
 The pilot dataset (planned output):
 
-phrasemes_FR-ZH.json
 
-Contains approximately 50 phraseological neologisms including:
 
-Linguistic annotation
 
-FR–ZH alignment
 
-Metadata (date, genre, source)
+It contains approximately **50 phraseological neologisms**, including:
 
-Variants and constructional patterns
+- Linguistic annotation  
+- FR–ZH alignment  
+- Metadata (date, genre, source)  
+- Variants and constructional patterns  
 
-Theoretical Framework
+---
+
+## Theoretical Framework
 
 The project draws on:
 
-Mel’čuk (Lexical Functions & Phrasemes)
-
-Boulanger (Neology)
-
-Cabré (Terminology & Neologisms)
-
-Construction Grammar
-
-Corpus-based lexicography
+- Mel’čuk (Lexical Functions & Phrasemes)  
+- Boulanger (Neology)  
+- Cabré (Terminology & Neologisms)  
+- Construction Grammar  
+- Corpus-based lexicography  
 
 Phraseological units are treated as:
 
-Non-free multi-lexeme units with lexical or semantic constraints.
+> Non-free multi-lexeme units with lexical or semantic constraints.
 
-Scientific Context
+---
+
+## Scientific Context
 
 The project is aligned with:
 
-IZ CoCoLex – FAU Erlangen–Nürnberg
+- IZ CoCoLex – FAU Erlangen–Nürnberg  
+- ENEOLI – European Network on Lexical Innovation  
+- Multilingual lexicography research initiatives  
 
-ENEOLI – European Network on Lexical Innovation
+---
 
-Multilingual lexicography research initiatives
+## Current Status
 
-Current Status
+- ✔ Corpus scraping implemented  
+- ✔ Tokenization and fusion pipeline  
+- ✔ French & Chinese candidate identification scripts  
+- ⏳ Pilot dataset finalization  
+- ⏳ JSON-LD modeling  
+- ⏳ Streamlit visualization interface  
 
-✔ Corpus scraping implemented
-✔ Tokenization and fusion pipeline
-✔ French & Chinese candidate identification scripts
-Pilot dataset finalization
-JSON-LD modeling
-Streamlit visualization interface
+---
 
-Future Developments
+## Future Developments
 
-Larger-scale corpus expansion
+- Larger-scale corpus expansion  
+- Automated neologism detection  
+- Integration with ENEOLI platform  
+- OWL / RDF modeling (OntoLex-Lemon compatible version)  
+- API access to dataset  
 
-Automated neologism detection
+---
 
-Integration with ENEOLI platform
+## Author
 
-OWL / RDF modeling (OntoLex-Lemon compatible version)
+**Dr. [Your Name]**  
+PhD in Linguistics (2021)  
+Computational Lexicography & Phraseology  
+Master 2 pluriTAL – INALCO  
 
-API access to dataset
+**Research interests:**
 
-Author
+- Phraseological neology  
+- Multilingual lexicography  
+- Ontology modeling  
+- NLP & corpus linguistics  
 
-Dr. [Your Name]
-PhD in Linguistics (2021)
-Computational Lexicography & Phraseology
-Master 2 pluriTAL – INALCO
+---
 
-Research interests:
+## License
 
-Phraseological neology
-
-Multilingual lexicography
-
-Ontology modeling
-
-NLP & corpus linguistics
-
-License
-
-This project is currently for academic research purposes.
+This project is currently for academic research purposes.  
 A specific license will be added upon publication of the dataset.
