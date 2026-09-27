@@ -214,6 +214,18 @@ The project is aligned with:
 - Ontology modeling  
 - NLP & corpus linguistics  
 
+## Acknowledgements
+
+This project was developed in the framework of a Short-Term Scientific Mission (STSM) carried out in January 2026 at the Centre for Research on Lexicography, Valency and Collocation (CoCoLex), Friedrich-Alexander-Universität Erlangen–Nürnberg (FAU), Germany, within the Computational Corpus Linguistics research environment led by Prof. Stephanie Evert.
+
+The research stay was funded by COST Action CA22126 – ENEOLI (European Network on Lexical Innovation).
+
+I would like to express my sincere gratitude to Prof. Stephanie Evert for hosting the research stay at CoCoLex and to Dr.-Ing. Besim Kabashi for the invitation, scientific exchanges, and support during the STSM.
+
+I also gratefully acknowledge the ENEOLI network and its leadership, Prof. Giovanni Luca Tallarico (Action Chair) and Prof. Rute Costa (Action Vice-Chair), for supporting this research within the framework of COST Action CA22126.
+
+The STSM contributed to the development of PhrasNeoLex, particularly the extraction, computational analysis, and structured modelling of French–Chinese phraseological neologisms (2015–2025).
+
 ---
 
 ## License
